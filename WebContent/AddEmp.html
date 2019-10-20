@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <form action="EmpAdd" method="post" enctype="multipart/form-data">
+    	<div class="row border mt-5" style="border-radius:10px;background-color: gray ">
+			<input type="file" name="image" class="form-control-file m-5">
+	        <input type="text" class="form-control m-5 form-control-lg"  placeholder="Name" name="name" required>
+	        <input type="text" class="form-control form-control-lg m-5" placeholder="Email" name="email" required>
+	        <input type="text" placeholder="Phone" class="form-control m-5 form-control-lg" name="phone" required>
+        	
+        	<button class="btn btn-block btn-success btn-lg m-5" type="submit">Add New Employee</button>
+        
+    	</div>
+    </form>
+</div>
+</body>
+</html>
